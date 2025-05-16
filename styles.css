@@ -35,11 +35,6 @@ h1 {
   letter-spacing: 0.12em;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
-  text-shadow:
-    0 0 6px #00fff7,
-    0 0 15px #00fff7,
-    0 0 20px #00fff7,
-    0 0 30px #00fff7;
 }
 
 form {

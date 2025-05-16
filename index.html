@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Out of This World To-Do</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section id="app" aria-label="To-do List application">
+    <h1>DAILY AGENDA</h1>
+    <form id="taskForm" aria-label="Add a new task">
+      <input type="text" id="taskInput" placeholder="Add cosmic task..." aria-required="true" autocomplete="off" />
+      <button type="submit" aria-label="Add task">+</button>
+    </form>
+    <ul id="taskList" aria-live="polite" aria-relevant="additions removals"></ul>
+    <div id="counter" aria-live="polite" aria-atomic="true"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
